@@ -33,7 +33,7 @@ register_client!(
     (bedrock, "bedrock", BedrockConfig, BedrockClient),
 );
 
-pub const OPENAI_COMPATIBLE_PROVIDERS: [(&str, &str); 19] = [
+pub const OPENAI_COMPATIBLE_PROVIDERS: [(&str, &str); 20] = [
     ("ai21", "https://api.ai21.com/studio/v1"),
     (
         "cloudflare",
@@ -60,4 +60,5 @@ pub const OPENAI_COMPATIBLE_PROVIDERS: [(&str, &str); 19] = [
     // RAG-dedicated
     ("jina", "https://api.jina.ai/v1"),
     ("voyageai", "https://api.voyageai.com/v1"),
+    ("siliconflow", "https://api.siliconflow.cn/v1"),
 ];

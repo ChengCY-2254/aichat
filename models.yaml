@@ -2025,3 +2025,20 @@
       type: reranker
       max_input_tokens: 8000
       input_price: 0.02
+
+# Links:
+#  - https://cloud.siliconflow.cn/models
+- provider: siliconflow
+  models:
+    - name: deepseek-ai/DeepSeek-V3
+      max_input_tokens: 163840
+    - name: deepseek-ai/DeepSeek-R1
+      max_input_tokens: 65536
+    - name: Pro/deepseek-ai/DeepSeek-V3
+      max_input_tokens: 163840
+    - name: Pro/deepseek-ai/DeepSeek-V3
+      max_input_tokens: 65536
+    - name: Qwen/QwQ-32B
+      max_input_tokens: 32768
+    - name: Qwen/QwQ-32B-Preview
+      max_input_tokens: 32768
